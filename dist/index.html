@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mind'N Flow - RPG Alışkanlık Takibi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cozy: {
+                50: '#FFF8F3',  // Much Lighter Background for readability
+                100: '#FEECE2', 
+                200: '#F7DED0', 
+                300: '#F7DED0',
+                400: '#FFBE98', 
+                500: '#E6A680', // Darker Primary for buttons
+                600: '#C08B76', // Darker Accents
+                700: '#A6705D',
+                800: '#7D5245', // Text/Borders
+                900: '#5C4033', // Very Dark Text for readability
+              }
+            },
+            fontFamily: {
+              serif: ['Merriweather', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+              pixel: ['"Press Start 2P"', 'cursive'],
+              mono: ['"Roboto Mono"', 'monospace'],
+              lora: ['Lora', 'serif'],
+              poppins: ['Poppins', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;600;800&family=Press+Start+2P&family=Roboto+Mono:wght@400;700&subset=latin-ext&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.32.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DJjbT1hc.js"></script>
+</head>
+  <body class="bg-cozy-50 text-cozy-900 font-sans selection:bg-cozy-200 transition-all duration-300">
+    <div id="root"></div>
+</body>
+</html>
